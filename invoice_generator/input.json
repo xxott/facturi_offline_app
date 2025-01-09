@@ -1,0 +1,71 @@
+{
+  "id": "S20241001001626",
+  "issueDate": "2024-12-10",
+  "dueDate": "2024-12-10",
+  "invoiceTypeCode": "380",
+  "documentCurrencyCode": "RON",
+  "taxCurrencyCode": "RON",
+  "identificationCode": "RO",
+  "paymentMeansCode": "42",
+
+  "supplierName": "SC JOBDONE SRL",
+  "supplierVat": "46053976",
+  "supplierRegistration": "J39/440/2022",
+  "supplierAddress": "INDEPENDENTEI nr. 33",
+  "supplierCity": "FOCSANI",
+  "supplierCounty": "RO-VN",
+
+  "customerName": "TRANSMIR 2002 S.R.L.",
+  "customerVat": "15103721",
+  "customerAddress": "COM. CAMPURI",
+  "customerCity": "CAMPURI",
+  "customerCounty": "RO-VN",
+  "customerPhone": "0740899395",
+
+  "bankAccount": "RO49BREL0002003629110100",
+  "bankName": "LIBRA INTERNET BANK",
+  
+  "taxTotal": {
+    "currencyID": "RON",
+    "taxAmount": 0.00,
+    "taxCategory": {
+      "id": "O",
+      "taxExemptionReasonCode": "VATEX-EU-O",
+      "taxExemptionReason": "Entitatea nu este inregistrata in scopuri de TVA",
+      "taxScheme": {
+        "id": "VAT"
+      }
+    }
+  },
+  "legalMonetaryTotal": {
+    "currencyID": "RON"
+  },
+  "items": [
+    {
+      "currencyID": "RON",
+      "itemName": "EXTENSIE CHROME CASA VERDE",
+      "amount": 100.00,
+      "quantity": 1.000,
+      "unitCode": "H87",
+      "classifiedTaxCategory": {
+        "id": "O",
+        "taxScheme": {
+          "id": "VAT"
+        }
+      }
+    },
+    {
+      "currencyID": "RON",
+      "itemName": "Serviciu Mentenanta",
+      "amount": 150.00,
+      "quantity": 2.000,
+      "unitCode": "H87",
+      "classifiedTaxCategory": {
+        "id": "O",
+        "taxScheme": {
+          "id": "VAT"
+        }
+      }
+    }
+  ]
+}
